@@ -1,0 +1,5 @@
+C:\MNC_TEST_APP\RIBA_WEB_APP\RIBA_BASE_Library\bin\Debug\RIBA_BASE_Library.dll
+C:\MNC_TEST_APP\RIBA_WEB_APP\RIBA_BASE_Library\bin\Debug\RIBA_BASE_Library.pdb
+C:\MNC_TEST_APP\RIBA_WEB_APP\RIBA_BASE_Library\obj\Debug\RIBA_BASE_Library.dll
+C:\MNC_TEST_APP\RIBA_WEB_APP\RIBA_BASE_Library\obj\Debug\RIBA_BASE_Library.pdb
+C:\MNC_TEST_APP\RIBA_WEB_APP\RIBA_BASE_Library\obj\Debug\RIBA_BASE_Library.csprojResolveAssemblyReference.cache

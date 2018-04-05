@@ -1,0 +1,76 @@
+﻿@model IEnumerable<RIBA_BASE_Library.Order>
+
+@{
+    ViewBag.Title = "RIBA Order List";
+}
+
+<div class="jumbotron">
+    <h1>RIBA</h1>
+    <p class="lead"> Web Application</p>
+
+</div>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            Orders List
+        </h3>
+    </div>
+    <div class="panel-body">
+        <p class="pull-right">
+             @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+        </p>
+               <table class="table table-bordered ">
+
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Order Date
+                </th>
+                <th>
+                    Customer Name
+                </th>
+                @*<th>
+                    Quantity
+                </th>*@
+
+                <th>
+                    Order Cost
+                </th>
+
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.orderDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.customerName)
+                    </td>
+                    @*<td>
+                        @Html.DisplayFor(modelItem => item.quantity)
+                    </td>*@
+                    <td>
+                        @Html.DisplayFor(modelItem => item.price)
+                    </td>
+
+                </tr>
+            }
+
+        </table>
+
+        </div>
+
+    <div class="panel-footer">
+
+    </div>
+    </div>
+
+
+     
